@@ -1,4 +1,4 @@
-# django-react-logrocket
+# django-react1
 A simple integration between Django API and React App
 
 This project is made up of two main ones:
@@ -14,22 +14,23 @@ In order to run the projects locally, you need to have Node, npm and Python inst
 
 Make sure you have python3 installed in your machine.
 
-First, let's create the python virtual environment to isolate our projects:
+First, let's create the python virtual environment to isolate our projects
+n/b: virtualenv or pipenv is preferred:
 
 ```bash
-python3 -m venv logrocket_env
+python3 -m venv venv
 ```
 
 Then, activate it:
 
 ```bash
-source logrocket_env/bin/activate
+. venv/bin/activate
 ```
 
 Just then you can clone the project from GitHub. So, `cd` into the venv and run:
 
 ```bash
-git clone https://github.com/diogosouza/django-react-logrocket.git
+git clone https://github.com/vendari12/track1.git
 ```
 
 Now, add the needed Djano dependencies:
